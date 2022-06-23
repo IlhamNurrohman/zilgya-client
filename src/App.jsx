@@ -7,7 +7,7 @@ import Login from './page/Login';
 import Footer from "./component/Footer"
 import Home from './page/Home';
 import Profile from './page/Profile';
-
+import OrderTracking from './page/Order Tracking';
 
 
 
@@ -21,6 +21,7 @@ function App() {
             <Route path='/auth' element={<Login />} />
             <Route path='/profile' element={<Profile />} />
             <Route path='/footer' element={<Footer />} />
+            <Route path='/ordertracking' element={<OrderTracking />} />
             {/* <Route path='/navbar' element={<Navbar />} /> */}
           </Routes>
         </Router>
